@@ -429,3 +429,7 @@ ul {
   white-space: nowrap;
   overflow: hidden;
 }
+
+.progress-one-i:hover{
+  background-color: var(--color-card-hover);
+}
