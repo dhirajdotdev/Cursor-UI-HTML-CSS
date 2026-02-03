@@ -310,8 +310,8 @@ ul {
   border-color: var(--color-border-02);
   border-right-style: solid;
   border-right-width: 1px;
-  min-width: 220px;
-  max-width: 320px;
+  min-width: 170px;
+  max-width: 200px;
   height: 100%;
 }
 
@@ -430,6 +430,6 @@ ul {
   overflow: hidden;
 }
 
-.progress-one-i:hover{
+.progress-one-i:hover {
   background-color: var(--color-card-hover);
 }
