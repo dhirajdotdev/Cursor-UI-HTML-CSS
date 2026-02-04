@@ -823,13 +823,94 @@ ul {
   grid-template-rows: auto 1fr;
 }
 
-.agent-container-card{
+.agent-container-card {
   text-decoration: inherit;
   color: inherit;
   position: relative;
   border-radius: 4px;
   background-color: var(--color-card-hex);
-  
   padding-inline: 17.5px;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  gap: 10px;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  row-gap: 0px;
+}
+
+.agent-inner-content-left {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 2.5px;
+}
+
+.agent-inner-content-left-text-box {
+  width: 100%;
+  max-width: 658.32px;
+  justify-self: flex-start;
+}
+
+.agent-title-left {
+  letter-spacing: 0.08px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.agent-title-left h3 {
+  text-wrap: pretty;
+  letter-spacing: -0.11px;
+  font-weight: 400;
+  line-height: 1.3;
+  font-size: 22px;
+  color: var(--color-fg);
+}
+
+.agent-subtitle {
+  text-wrap: pretty;
+  color: var(--color-text-sec);
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: -0.11px;
+}
+
+.learn-about-agent {
+  margin-top: 14.9333px;
+}
+
+.learn-about-btn {
+  background-color: #0000;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  display: inline-flex;
+  color: #f54e00;
+  padding: unset;
+}
+
+.agent-ide-ui-bg{
+  display: grid;
+  cursor: default;
+  grid-column-start: 9;
+  grid-column-end: 25;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-items: center;
+}
+
+.agent-card-grid{
+  color: var(--color-fg);
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  gap: 10px;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
   
 }
