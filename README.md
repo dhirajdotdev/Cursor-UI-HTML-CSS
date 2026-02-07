@@ -1,6 +1,6 @@
 # Cursor UI Clone (HTML/CSS)
 
-A pixel-perfect clone of the [Cursor.com](https://cursor.com) landing page, recreated using pure HTML and CSS.
+A clone of the [Cursor.com](https://cursor.com) landing page, recreated using pure HTML and CSS.
 
 ## Project Links
 - **Live Website:** [https://cursor-ui.netlify.app/](https://cursor-ui.netlify.app/)
